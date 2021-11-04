@@ -1,0 +1,4 @@
+[submodule "catchtwentytwo/public"]
+	path = catchtwentytwo/public
+	url = https://github.com/ervinfabian/ervinfabian.github.io.git
+	branch = main
