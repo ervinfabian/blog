@@ -2,3 +2,7 @@
 	path = catchtwentytwo/public
 	url = https://github.com/ervinfabian/ervinfabian.github.io.git
 	branch = main
+[submodule "public"]
+	path = public
+	url = https://github.com/ervinfabian/ervinfabian.github.io.git
+	branch = main
