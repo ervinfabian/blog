@@ -1,6 +1,6 @@
-[submodule "catchtwentytwo/public"]
-	path = catchtwentytwo/public
-	url = https://github.com/ervinfabian/ervinfabian.github.io.git
+[submodule "themes/contrast-hugo"]
+	path = themes/contrast-hugo
+	url = https://github.com/niklasbuschmann/contrast-hugo.git
 	branch = main
 [submodule "public"]
 	path = public
