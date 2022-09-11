@@ -16,9 +16,16 @@ jobs:
       with:
         submodules: true
     
+    - name: Setup go
+      uses: actions/setup-go@v1
+      with:
+        go-version: 1.18.x
+
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@master
       env:
         HUGO_VERSION: 0.102.3
+        HUGO_EXTENDED: true
+	      GO_VERSION: 1.18.5
         TARGET_REPO: ervinfabian/ervinfabian.github.io
         TOKEN: ${{ secrets.MY_SECRET }}
