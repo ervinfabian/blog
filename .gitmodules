@@ -5,5 +5,5 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/ervinfabian/ervinfabian.github.io.git
-	branch =main
+	branch = main
 	
